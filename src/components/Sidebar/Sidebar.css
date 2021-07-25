@@ -1,0 +1,46 @@
+.sidebar {
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 0px 10px 0px 0px;
+    background-color: #fff;
+    border-right: 2px solid var(--primary);
+    padding: 4rem 2rem 0 0;
+}
+
+.sidebarSection {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-light);
+    padding-bottom: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.sidebarTitle {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+.sidebarLists {
+    list-style: circle;
+    display: block;
+    margin: 1rem 0 0 0;
+    height: auto;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.titleWithBtn{
+    margin-bottom: 2 rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+label {
+    margin-left: .6rem;
+}
+
+.link {
+    font-size: .9rem !important;
+}
