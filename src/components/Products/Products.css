@@ -23,6 +23,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.6rem;
     margin: 1rem 0;
+    margin-left: 280px;
 }
 
 .availableSizes {

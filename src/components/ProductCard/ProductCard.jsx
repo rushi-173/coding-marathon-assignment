@@ -8,8 +8,8 @@ export const ProductCard = ({ products }) => {
       </div>
       <div className="cardBody">
           
+      <h2 className="productCategory">{products.brand}</h2>
             <h1 className="productName">{products.name}</h1>
-            <h2 className="productCategory">{products.brand}</h2>
           
         <h3 className="productPrice">Rs {products.price}</h3><br/>
         <small>size - {products.size} </small>

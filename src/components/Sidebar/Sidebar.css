@@ -6,6 +6,7 @@
     border-right: 2px solid var(--primary);
     padding: 4rem 2rem 0 0;
     height: 100vh;
+    position: fixed;
 }
 
 .sidebarSection {
